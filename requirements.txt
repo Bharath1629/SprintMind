@@ -4,3 +4,4 @@ uvicorn
 python-dotenv
 pydantic
 requests
+langchain_huggingface
