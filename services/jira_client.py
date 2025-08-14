@@ -2,15 +2,11 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 from typing import Dict, List
+import sys
 import os
-from dotenv import load_dotenv
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from utils.config import JIRA_BASE_URL, EMAIL, API_TOKEN
 
-load_dotenv()
-
-
-JIRA_BASE_URL = os.getenv("JIRA_URL")
-EMAIL = os.getenv("JIRA_USER")
-API_TOKEN = os.getenv("JIRA_API_TOKEN")
 BOARD_ID = "1"  # Your board ID
 
 class JiraAPI:
