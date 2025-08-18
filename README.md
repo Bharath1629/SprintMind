@@ -52,7 +52,7 @@ SprintMind is built around a central orchestrator that coordinates a team of spe
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/SprintMind.git
+    git clone https://github.com/Bharath1629/SprintMind.git
     cd SprintMind
     ```
 
