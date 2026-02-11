@@ -26,6 +26,9 @@ SprintMind is built around a central orchestrator that coordinates a team of spe
 - **`kb_extractor_agent`**: Functions as a knowledge base, retrieving insights from past Jira tickets.
 - **Slack Bot + Ngrok**: Slack messages are routed to your local Flask bot via a secure ngrok tunnel, which then communicates with ADK agents and Jira.
 
+  ![sprintMind](https://github.com/user-attachments/assets/da9366c6-602a-4e5e-8abb-69ea1a60e122)
+
+
 ---
 
 ## 🧰 Tech Stack
