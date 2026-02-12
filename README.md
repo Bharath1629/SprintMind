@@ -37,7 +37,7 @@ SprintMind is built around a central orchestrator that coordinates a team of spe
 - **Language**: Python
 - **LLM**: LiteLLM (configurable)
 - **APIs**: Jira REST API, Slack API
-- **Backend**: Flask
+- **Backend**: Fast API
 - **Ngrok**: Secure tunneling to expose local server for Slack
 
 ---
